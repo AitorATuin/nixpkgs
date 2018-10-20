@@ -11535,6 +11535,8 @@ in {
 
   typeguard = callPackage ../development/python-modules/typeguard { };
 
+  typedload = callPackage ../development/python-modules/typedload { };
+
   ruamel_yaml = buildPythonPackage rec {
     name = "ruamel.yaml-${version}";
     version = "0.15.35";
